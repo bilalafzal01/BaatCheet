@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "778948372172",
+    "firebase_url": "https://baatcheetfinal4thmay.firebaseio.com",
+    "project_id": "baatcheetfinal4thmay",
+    "storage_bucket": "baatcheetfinal4thmay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778948372172:android:b9175d9dee9dda04",
+        "android_client_info": {
+          "package_name": "com.khab.finalCheetBaat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778948372172-qfkpfoadlbam1svklpvsoairrnr83i7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khab.finalCheetBaat",
+            "certificate_hash": "9f064f0aa9a9a3ccfa70620ef59e516be8b1b9a8"
+          }
+        },
+        {
+          "client_id": "778948372172-24ildv4e86qh7gfvpd9703qae9ei749e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khab.finalCheetBaat",
+            "certificate_hash": "abd1ce1e412dda5a5597569dabf207e39b6a41fe"
+          }
+        },
+        {
+          "client_id": "778948372172-g0uunhou8b8de99rnolbv07rl4vleq2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-RuuKr-FHr2oGxwus4o1wbjek4Hyt8IY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778948372172-g0uunhou8b8de99rnolbv07rl4vleq2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

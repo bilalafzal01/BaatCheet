@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileSettings"
+    android:background="@color/colorPrimary"
+    style="@style/AppTheme" >
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/default_avatar"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColorPrimary"
+        android:layout_alignTop="@+id/profileImage"
+        android:layout_marginTop="310dp"
+        android:id="@+id/profileName"
+        android:text="@string/default_name"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="280dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/status"
+        android:textColor="@color/offWhite"
+        android:layout_alignTop="@+id/profileImage"
+        android:layout_marginTop="352dp"
+        android:id="@+id/profileStatus"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/buttonChangeName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/profileImage"
+        android:layout_marginTop="420dp"
+        android:background="@color/offWhite"
+        android:paddingRight="@dimen/paddingRight"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/changeName" />
+
+
+    <Button
+        android:id="@+id/buttonChangeImage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/buttonChangeName"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorAccent"
+        android:paddingRight="@dimen/paddingRight"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:textColor="@color/textColorPrimary"
+        android:text="@string/changeProfileImage" />
+
+    <Button
+        android:id="@+id/buttonChangeStatus"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/buttonChangeImage"
+        android:layout_marginTop="70dp"
+        android:background="@color/offWhite"
+        android:paddingRight="@dimen/paddingRight"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/changeStatus" />
+
+
+</RelativeLayout>

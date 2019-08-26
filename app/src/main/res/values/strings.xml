@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BaatCheet</string>
+    <string name="register_a_new_account">NEED A NEW ACCOUNT?</string>
+    <string name="login_to_an_existing_account">LOGIN TO AN EXISTING ACCOUNT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create">CREATE</string>
+    <string name="nameR">Name</string>
+    <string name="phonenoR">Phone No</string>
+    <string name="passwordR">Password</string>
+    <string name="emailR">Email</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="password_old">Enter Your Previous Password</string>
+    <string name="password_new_1">Enter Your New Password</string>
+    <string name="password_new_2">Please Confirm Your New Password</string>
+    <string name="changePass">Change Password</string>
+    <string name="switch_account">Switch Account</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="search">Search</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="add_a_friend">Add a Friend</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="changeName">CHANGE PROFILE NAME</string>
+    <string name="changeProfileImage">CHANGE PROFILE PICTURE</string>
+    <string name="changeStatus">CHANGE PROFILE STATUS</string>
+    <string name="status">Hey there I\'m using BaatCheet!</string>
+    <string name="default_name">DEFAULT NAME</string>
+    <string name="profileSettings">Profile Settings</string>
+    <string name="all_users">All Users</string>
+    <string name="user_default_status">Hi there, I\'m using BaatCheet!</string>
+    <string name="display_name">Default Name</string>
+    <string name="send_request">SEND REQUEST</string>
+    <string name="decline_friend_request">decline friend request</string>
+    <string name="total_friends">total friends</string>
+    <string name="send_friend_request">send friend request</string>
+    <string name="current_user_status">current user status</string>
+</resources>

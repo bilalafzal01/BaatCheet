@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.khab.finalCheetBaat">
+
+    <application
+        android:name=".BaatCheet"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ChatActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".UsersActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChangeStatus"
+            android:parentActivityName=".ProfileSettings" />
+        <activity
+            android:name=".ChangeNameActivity"
+            android:parentActivityName=".ProfileSettings" />
+        <activity android:name=".DeleteAccountActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ProfileSettings"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

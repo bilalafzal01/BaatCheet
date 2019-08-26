@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingRight">10dp</dimen>
+    <dimen name="paddingLeft">10dp</dimen>
+    <dimen name="marginToolBarStart">40dp</dimen>
+</resources>

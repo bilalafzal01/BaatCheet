@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/dark_mode"
+        android:id="@+id/navigationDarkMode"
+        />
+        <!--app:showAsAction="collapseActionView"-->
+    <item
+        android:title="@string/notifications"
+        android:id="@+id/navigationNotifications"/>
+        <!--app:showAsAction="collapseActionView"/>-->
+    <item
+        android:title="@string/add_a_friend"
+        android:id="@+id/navigationAddaFriend"/>
+        <!--app:showAsAction="collapseActionView"/>-->
+
+</menu>

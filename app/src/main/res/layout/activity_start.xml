@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    style="@style/AppTheme"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/startImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/mainpic" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="170dp"
+        android:background="@color/colorAccent"
+        android:paddingRight="@dimen/paddingRight"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:textColor="@color/textColorPrimary"
+        android:text="@string/register_a_new_account" />
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="@dimen/paddingRight"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:backgroundTint="@color/textColorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/login_to_an_existing_account"
+        android:layout_marginBottom="100dp"
+
+        />
+
+</RelativeLayout>

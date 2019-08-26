@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/profileSettings"
+        android:title="@string/profileSettings"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/allusers"
+        android:title="@string/all_users"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/changePassword"
+        android:title="@string/changePass"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/deleteAccount"
+        android:title="@string/delete_account"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/btnLogout"
+        android:title="@string/logout"
+        app:showAsAction="collapseActionView"
+        />
+
+    <item
+        android:id="@+id/main_app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+</menu>
